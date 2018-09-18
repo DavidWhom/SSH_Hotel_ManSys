@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 配置 UserAction -->
+	<bean id="userAction"
+		class="cn.iankeri.hotel.actions.UserAction"
+		scope="prototype">
+	</bean>
+	
+	<!-- 配置 ImgAction -->
+	<bean id="imgAction"
+		class="cn.iankeri.hotel.actions.ImgAction"
+		scope="prototype">
+	</bean>
+	
+	<!-- 配置 RoomAction -->
+	<bean id="roomAction"
+		  class="cn.iankeri.hotel.actions.RoomAction"
+		  scope="prototype">
+	</bean>
+	
+	<!-- 配置 RoomTypeAction -->
+	<bean id="roomTypeAction"
+		  class="cn.iankeri.hotel.actions.RoomTypeAction"
+		  scope="prototype">
+	</bean>
+	
+	<!-- 配置 OrderAction -->
+	<bean id="orderAction"
+		  class="cn.iankeri.hotel.actions.OrderAction"
+		  scope="prototype">
+	</bean>
+	
+	<!-- 配置 adminAction -->
+	<bean id="adminAction"
+		  class="cn.iankeri.hotel.actions.AdminAction"
+		  scope="prototype">
+	</bean>
+	
+	<!-- 配置 loginAction -->
+	<bean id="loginAction"
+		  class="cn.iankeri.hotel.actions.LoginAction"
+		  scope="prototype">
+	</bean>
+	
+	<!-- 配置 codeAction -->
+	<bean id="codeAction"
+		  class="cn.iankeri.hotel.actions.CodeAction"
+		  scope="prototype">
+	</bean>
+	
+	
+	
+	
+	
+	
+</beans>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-7-21 16:22:08 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.iankeri.hotel.entities.Record" table="RECORD">
+    
+        <id name="orderId" type="java.lang.Integer">
+            <column name="ORDER_ID" />
+            <generator class="native" />
+        </id>
+        
+        <property name="price" type="java.math.BigDecimal">
+            <column name="PRICE" />
+        </property>
+        
+        <property name="arrivalTime" type="java.util.Date">
+            <column name="ARRIVAL_TIME" />
+        </property>
+        
+        <property name="departureTime" type="java.util.Date">
+            <column name="DEPARTURE_TIME" />
+        </property>
+        
+        <property name="realTime" type="java.util.Date">
+            <column name="REAL_TIME" />
+        </property>
+        
+        <property name="states" type="java.lang.Integer">
+            <column name="STATES" />
+        </property>
+        
+        <many-to-one name="room" class="cn.iankeri.hotel.entities.Room">
+            <column name="ROOM_ID" />
+        </many-to-one>
+        
+        <many-to-one name="user" class="cn.iankeri.hotel.entities.User">
+            <column name="USER_ID" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-7-21 16:22:08 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="cn.iankeri.hotel.entities.RoomType" table="ROOMTYPE">
+    
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        
+        <property name="roomTypeName" type="java.lang.String">
+            <column name="ROOMTYPE_NAME" />
+        </property>
+        
+        <property name="peoples" type="java.lang.String">
+            <column name="PEOPLES" />
+        </property>
+        
+        <property name="price" type="java.math.BigDecimal">
+            <column name="PRICE" />
+        </property>
+        
+        <property name="net_info" type="java.lang.String">
+            <column name="NET_INFO" />
+        </property>
+        
+        <property name="bef_info" type="java.lang.String">
+            <column name="BEF_INFO" />
+        </property>
+        
+        <property name="park_info" type="java.lang.Boolean">
+            <column name="PARK_INFO" />
+        </property>
+        
+        <property name="other_info" type="java.lang.String">
+            <column name="OTHER_INFO" />
+        </property>
+        
+        <property name="roomImg" type="java.lang.String">
+            <column name="ROOM_IMG" />
+        </property>
+        
+        <property name="times" type="java.lang.Integer">
+            <column name="TIMES" />
+        </property>
+    </class>
+</hibernate-mapping>

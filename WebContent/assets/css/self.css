@@ -1,0 +1,164 @@
+#PageNum {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+#PageNum li a {
+    display: block;
+    background-color: #FFF;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 12px;
+    padding: 0px 10px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #333;
+}
+#PageNum li {
+    text-align: center;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+#PageNum li a:hover {
+    background-color: #eb6d48;
+    color: #FFF;
+}
+
+.name_self{
+	margin:8 0 8 0;
+}
+
+.profile-info_self {
+    padding: 0 20px;
+    margin: 5px 0;
+}
+.profile-info_headImg{
+	margin:5px 5px;
+}
+.profile-right{
+	float: none;
+	width: 100%;
+}
+
+#edit_user input[type="text"]{
+	width:200px;
+}
+
+#edit_user table th{
+	width:120px;
+}
+
+.user_edit_info{
+	width: 60%;	
+}
+
+.user_edit_info tr{
+	height: 50px;
+}
+.panel .panel-heading_user_edit {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    position: relative;
+}
+.user_edit_info{
+	width: 80%;
+}
+.user_edit_info .img{
+	width:30%;
+	text-align: center;
+}
+
+.user-edit .user_edit_info .for_showImg img{
+    width: 120px;
+    height: 150px;
+}
+
+.user_edit_info  .label{
+	width: 80px;
+	display: inline-block;
+}
+
+.room_add{
+	margin-top: 10%;
+}
+
+//图片上传
+.section {
+	width: 1200px;
+	margin: 200px auto;
+}
+.article {
+	border: 1px solid #ccc;
+	padding: 20px;
+  min-height: 160px;
+}
+.item {
+	 width: 90px;
+	 height: 90px;
+	float: left;
+	position: relative;
+	margin: 17px;
+}
+.addImg {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+.preview,.preBlock{
+	position: absolute;
+  display: block;
+	width: 92px;
+    height: 91px;
+	left: 0;
+	top: 0;
+}
+.delete {
+  width: 25px;
+	position: absolute;
+	right: -20px;
+	top: -15px;
+	cursor: pointer;
+	display: none;
+}
+.preBlock img {
+  display: block;
+	width: 90px;
+	height: 90px;
+}
+.upload_input{
+  display: block;
+  width: 0;
+  height: 0;
+  -webkit-opacity: 0.0;  
+  /* Netscape and Older than Firefox 0.9 */  
+  -moz-opacity: 0.0;  
+  /* Safari 1.x (pre WebKit!) 老式khtml内核的Safari浏览器*/  
+  -khtml-opacity: 0.0;  
+  /* IE9 + etc...modern browsers */  
+  opacity: .0;  
+  /* IE 4-9 */  
+  filter:alpha(opacity=0);  
+  /*This works in IE 8 & 9 too*/  
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";  
+  /*IE4-IE9*/  
+  filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0); 
+}
+
+//订购页面
+.bookNow .label{
+	width:80px;
+    display: inline-block;
+}
+
+.bookSucPage{
+	height: 210px;
+}

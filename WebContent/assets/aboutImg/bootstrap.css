@@ -1,0 +1,47 @@
+
+
+figcaption{
+  display: block;
+}
+
+
+
+
+/*================================================*/
+@media (min-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-xs-4, .col-sm-4, .col-md-4, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xs-4{
+  float: left;
+}
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+@media (min-width: 992px) {
+  .col-md-4{
+    float: left;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+/*# sourceMappingURL=bootstrap.css.map */
